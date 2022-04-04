@@ -1,19 +1,4 @@
-/* const observerAnim = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("slide-in-left")
-        observer.unobserve(entry.target);
-      } else {
-        entry.target.classList.remove("slide-in-left")
-      }
-    })
-}, {threshold: 1})
-
-const arrows = document.getElementsByClassName("justarrow-baa");
-
-for (const anim2 of arrows) {
-    observerAnim.observe(anim2)
-} */
+// Code under is for the arrow animation
 
 const scrollOffset = 0;
  
@@ -48,4 +33,22 @@ const handleScrollAnimation = () => {
  
 window.addEventListener('scroll', () => {
   handleScrollAnimation();
+})
+
+// Code under is for the scribble scroll effect
+
+let path = document.querySelector('.path')
+let pathLength = path.getTotalLength()
+
+path.style.strokeDasharray = pathLength + ' ' + pathLength;
+
+path.style.strokeDashoffset = pathLength;
+
+window.addEventListener('scroll', () => {
+
+  var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+
+  var drawLength = pathLength * scrollPercentage;
+
+  path.style.strokeDashoffset = pathLength - drawLength;
 })

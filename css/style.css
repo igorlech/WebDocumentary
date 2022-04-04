@@ -109,8 +109,8 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
   }
   .m-scroll__title > div {
     display: flex;
-    -webkit-animation: scrollText 15s infinite linear;
-            animation: scrollText 15s infinite linear;
+    -webkit-animation: scrollText 30s infinite linear;
+            animation: scrollText 30s infinite linear;
   }
   .m-scroll__title h1 {
     margin: 0;
@@ -154,6 +154,8 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 
 /* MAIN styling */
 
+b, strong {font-weight:bold !important;}
+
 #grouppeople{
   width: 80%;
 }
@@ -170,6 +172,7 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 }
 
 #first-text-people{
+  margin-top: 40px;
   font-size: 30px;
   margin-bottom: 50px;
 }
@@ -193,20 +196,20 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 
 .orange-cont {
   background-color: #EE3E07;
-  height: 20em;
+  height: 22em;
   width: 50%;
 }
 
 .grey-cont{
   background-color: #CDCDCD;
   width: 50%;
-  height: 20em;
+  height: 22em;
 }
 
 .grey-heading{
   text-align: center;
-  margin: 10px; /* TOFIX! */
-  font-size: 50px; /* TOFIX! */
+  margin: 1rem;
+  font-size: 7vh;
   font-family: ff-carina,sans-serif;
   font-style: normal;
 }
@@ -215,7 +218,8 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
   text-align: left;
   padding: 30px 100px;
   font-family: GlacialIndifference-Regular;
-  font-size: 20px;
+  font-size: 15px;
+  line-height: 1.2em;
 }
 
 .grey-cont {
@@ -252,14 +256,14 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 
 .ontop-pic {
   position: relative;
-  top: 100px;
-  left: 150px;
-  width: 400px;
+  top: 5em;
+  left: 9em;
+  width: 350px;
 }
 
 .dronevideo-cont {
   position: relative;
-  top: 300px;
+  top: 21em;
 }
 
 .dronevideo {
@@ -269,20 +273,20 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 
 /* Community part */
 
-.community-cont{ /* TOFIX! */
-  margin-top: 170px;
-  padding-left: 150px;
+.community-cont{ 
+  margin-top: 42vh;
+  padding-left: 9rem;
 }
 
 #community-text{
   font-family: BlackMango-SemiBold;
-  font-size: 150px;
+  font-size: 21vh;
   position: absolute;
 }
 
 .community-img{
   position: relative;
-  margin-top: 92px;
+  margin-top: 13vh;
 }
 
 /* Diversity part */
@@ -294,6 +298,7 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 
 .diversity-left {
   width: 50%;
+  left: 0;
 }
 
 .diversity-right {
@@ -302,21 +307,20 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 }
 
 .diversity-heading{
-  margin-top: 150px;
+  margin-top: 5em;
   font-family: BlackMango-ExtraBold;
   font-size: 50px;
   margin-bottom: 50px;
 }
 
 .yarn-def{
-  font-size: 18px;
+  font-size: 1.5em;
   font-family: GlacialIndifference-Italic;
 }
 
 .yarn-text{
   font-family: GlacialIndifference-Regular;
-  font-size: 25px
-  ;
+  font-size: 1.8em;
 }
 
 .linediv {
@@ -341,39 +345,39 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 }
 
 #img-diversity-right{
-  margin-top: 125px;
-  margin-left: 25px;
+  margin-top: 20vh;
+  margin-left: 5vh;
   position: absolute;
-  width: 600px;
+  width: 80vh;
 }
 
 .diversity-section {
-  margin-bottom: 20em;
+  margin-bottom: 50vh;
 }
 
 #img-diversity-right-2{
   position: relative;
-  top: 675px;
-  left: 470px;
+  top: 90vh;
+  left: 60vh;
   width: auto;
 }
 
 .diversity-text {
   font-family: BlackMango-SemiBold;
-  font-size: 150px;
+  font-size: 10em;
   position: absolute;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   position: relative;
   top: 2em;
-  left: 2em;
+  left: 1em;
 }
 
 .diversity-img {
   transform: rotate(270deg);
   position: relative;
-  left: 330px; /* TOFIX! */
-  bottom: 3.1em;
+  left: 12em;
+  bottom: 2em;
 }
 
 .rotate {
@@ -398,8 +402,8 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 
 .cremedot {
   background-color: #EEE6C9;
-  left: 40em;
-  top: 8em;
+  left: 35rem;
+  top: 5rem;
 }
 
 .greydot {
@@ -410,8 +414,8 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 
 .reddot {
   background-color: #EE3E07;
-  left: 30em;
-  bottom: 53em;
+  left: 30rem;
+  bottom: 12rem;
 }
 
 /* Video + unity part */
@@ -433,9 +437,9 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 .videoline-cont {
   display: flex;
   flex-direction: row;
-  height: 30em;
+  height: 30rem;
   clear: both;
-  margin-top: 150px;
+  margin-top: 7em;
   z-index: 1;
 }
 
@@ -469,25 +473,40 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 
 .justarrow {
   width: 89%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .justarrow-text {
   position: relative;
-  bottom: 23em;
+  bottom: 34rem;
+  padding-left: 16rem;
+  font-family: GlacialIndifference-Regular;
+  font-size: 1.9em;
+}
+
+.justarrow-text2 {
+  position: relative;
+  top: 35rem;
+  padding-left: 54rem;
+  font-family: BlackMango-SemiBold;
+  font-size: 6em;
 }
 
 .arrowsvg {
+  position: relative;
   width: 500px;
   height: 900px;
+  right: 2.1rem;
 }
 .arrowcont {
   display: flex;
   flex-direction: row;
   position: relative;
-}
-
-.underarrow {
-  height: 30em;
+  bottom: 15rem;
 }
 
 @keyframes arrowmove {
@@ -513,9 +532,12 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
  */
  @-webkit-keyframes slide-in-top {
   0% {
-    -webkit-transform: translateY(-1000px);
+    -webkit-transform: translateY(-1200px);
             transform: translateY(-1000px);
     opacity: 0;
+  }
+  55% {
+      opacity: 0;
   }
   100% {
     -webkit-transform: translateY(0);
@@ -525,8 +547,11 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 }
 @keyframes slide-in-top {
   0% {
-    -webkit-transform: translateY(-1000px);
-            transform: translateY(-1000px);
+    -webkit-transform: translateY(-1200px);
+            transform: translateY(-1200px);
+    opacity: 0;
+  }
+  55% {
     opacity: 0;
   }
   100% {
@@ -536,13 +561,13 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
   }
 }
 
-.slide-in-left {
-	-webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+.fade-in {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.001s both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.001s both;
 }
 
 /* ----------------------------------------------
- * Generated by Animista on 2022-3-31 14:0:4
+ * Generated by Animista on 2022-4-2 11:13:55
  * Licensed under FreeBSD License.
  * See http://animista.net/license for more info. 
  * w: http://animista.net, t: @cssanimista
@@ -550,30 +575,22 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 
 /**
  * ----------------------------------------
- * animation slide-in-left
+ * animation fade-in
  * ----------------------------------------
  */
- @-webkit-keyframes slide-in-left {
+ @-webkit-keyframes fade-in {
   0% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
     opacity: 1;
   }
 }
-@keyframes slide-in-left {
+@keyframes fade-in {
   0% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
     opacity: 1;
   }
 }
@@ -582,16 +599,65 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 
 .unity-img{
   position: relative;
-  margin-left: 200px;
+  left: 12rem;
+  z-index: -89;
+  bottom: 8rem;
 }
 
 .unity-text{
-  position: absolute;
+  position: relative;
   font-family: BlackMango-SemiBold;
-  margin-left: 220px;
-  font-size: 150px;
+  margin-left: 13rem;
+  font-size: 10em;
+  z-index: 11;
+  bottom: 11rem;
 }
 
+.unitysection {
+  margin-bottom: 5em;
+  display: flex;
+  flex-direction: row;
+}
+
+.unitydiv-cont-text {
+  width: 50%;
+}
+
+.unitydiv-cont-circle {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unitycircle {
+  width: 15em;
+  background-color: #EEE6C9;
+  padding: 6em;
+  border-radius: 50%;
+  text-align: center;
+  font-family: GlacialIndifference-Regular;
+  font-size: 1.1em;
+}
+
+.unitydiv-cont-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.unitytext-bottom {
+ display: flex;
+ justify-content: center;
+}
+
+.unitybottom-text {
+  font-family: BlackMango-SemiBold;
+  font-size: 1.7em;
+  text-align: center;
+  padding-left: 5.5em;
+  padding-right: 0.5em;
+}
 /* Flipping cards*/
 
 .flip-cont{
@@ -641,7 +707,6 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
 
 
 .flip-card-front {
-  background-color: none;
   color: black;
 }
 
@@ -658,6 +723,7 @@ Code borrowed and adjusted from: https://codepen.io/julianofreitas/pen/BayKper?e
   width:250px;
   height: 250px;
   font-family: GlacialIndifference-Regular;
+  padding: 7px;
 }
 
 .picture{
@@ -705,4 +771,23 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Scribble styling */
+
+.linesvg {
+  display: inline-block;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.line-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  overflow: hidden;
+  z-index: -999;
 }
